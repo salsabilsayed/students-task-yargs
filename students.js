@@ -30,8 +30,14 @@ const removeStudent = id => {
 const readStudent = id => {
     const students = getAllStudents();
     const selectedStudent = students.find(student => student.id === id);
-    console.log(`student name is ${selectedStudent.name} and his grade of ${selectedStudent.subject}
-     is ${selectedStudent.grade}. comments: ${selectedStudent.comment || 'no comments available'}`);
+
+    if(selectedStudent){
+        console.log(`student name is ${selectedStudent.name} and his grade of ${selectedStudent.subject}
+        is ${selectedStudent.grade}. comments: ${selectedStudent.comment || 'no comments available'}`);
+
+    }else{
+        console.log('No student with this id!');
+    }
 }
 
 const listStudents = () => {
