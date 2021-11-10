@@ -4,7 +4,7 @@ const students = require('./students');
 
 yargs.command({
     command:'add',
-    describe:'Add notes',
+    describe:'Add new student',
     builder:{
         id:{
             describe:'This is the unique identifier for each student',
