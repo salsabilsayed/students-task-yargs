@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "name": "ahmed",
+    "subject": "math",
+    "grade": 70,
+    "comment": "good"
+  },
+  { "id": 2, "name": "mona", "subject": "science", "grade": 80 },
+  { "id": 3, "name": "ali", "subject": "english", "grade": 30 }
+]
